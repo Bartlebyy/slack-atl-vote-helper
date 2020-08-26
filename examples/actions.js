@@ -84,3 +84,4 @@ app.action('button_abc', async ({ ack, body, context }) => {
 
   console.log('⚡️ Bolt app is running!');
 })();
+app.command();
